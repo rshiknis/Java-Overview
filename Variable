@@ -1,0 +1,44 @@
+import java.lang.invoke.StringConcatFactory;
+import java.util.Scanner;
+
+public class Client {
+    public static void main(String[]args){
+        //primitive types
+        byte x = 2; //8
+        short y = 3; //16
+        int z = 6;  //32
+        long q = 34; //64
+        float w = 11; //32
+        double a = 22; //64
+        boolean t = false;
+        char b = 4;
+        char c = '4';
+
+        //object types
+        Animal myAnimal = new Animal();
+        Scanner myScanner = new Scanner(System.in);
+        String myString = new String("Hello world!");
+
+
+
+        //declaration
+        String candles;
+        Animal myAnimal2;
+        int age;
+
+
+        //assignment/instantiation
+        myAnimal2 =new Animal();
+        candles = "15";
+        age=15;
+
+
+
+
+
+        //Strings
+        String sports = "Football";
+        sports= sports.substring(1,6);
+        System.out.println(sports);
+    }
+}
